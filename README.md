@@ -93,5 +93,9 @@ SSH into the control node and follow the steps below:
 ⦁	Update the _my-playbook.yml file to include host: webservers.
 ⦁	the playbook and navigate to curl localhost/setup.php to check that the installation worked as expected.
 
-Which file is the playbook? Where do you copy it? /etc/ansible folder Which file do you update to make Ansible run the playbook on a specific machine? Update the [ansible-config]. How do I specify which machine to install the ELK server on versus which to install Filebeat on? update the hostname in the hosts file and then update the [ansible-config] file and then save. _Which URL do you navigate to check that the ELK server is running? http://[13.75.228.14]:5601
+Which file is the playbook? Where do you copy it? /etc/ansible folder 
+Which file do you update to make Ansible run the playbook on a specific machine? Update the [ansible-config]. 
+How do I specify which machine to install the ELK server on versus which to install Filebeat on? update the hostname in the hosts file and then update the [ansible-config] file and then save. 
+Which URL do you navigate to check that the ELK server is running? http://[13.75.228.14]:5601
+
 
